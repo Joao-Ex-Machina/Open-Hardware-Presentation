@@ -1,6 +1,6 @@
 ---
 title:
-- Open-source Hardware
+- Free/Open-source Hardware
 subtitle:
 - An overview on the Open-source philosophy and Open Hardware state of the art
 author:
@@ -8,7 +8,7 @@ author:
 - J. Rodrigues
 - J. Lopes
 institute:
-- IST-Ulisboa
+- IST-UL
 fonttheme:
 - "professionalfonts"
 monofont:
@@ -21,17 +21,38 @@ colortheme:
 
 # Introduction
 
-- Define Open-source hardware
+Free (as in Freedom)/Open-source Hardware are Hardware directives or designs that can be freely: 
 
-# Introduction-Timeline
+- Used
+- Studied
+- Shared
+- Improved
 
-- Give small historic contextualization
+FO-S Hardware can be observed in many variations such as:
 
-# Introductrion-Licenses 
+- Electronics (the focus of this talk)
+- Mechatronics (3D printers, Prosthethics, etc.)
+- And many other
+
+# Introductrion-Timeline and Licenses 
 
 - Hit some licenses here like the OHL etc. be fast we want to go to the eng. meat
 
-# Reasons for Open Hardware
+# Why Free/Open Hardware?
+
+From the researcher standpoint:
+
+- More tools available
+    - Adaptable
+    - 
+- 
+- 
+
+From the adept/costumer standpoint:
+
+- Transparency and Respect for the user
+- Reparability
+- Upgradability
 
 # Open Hardware Projects
 
@@ -39,10 +60,10 @@ We can split open hardware projects into five main groups:
 
 - Instruction Set Architectures (ISAs)
 - Systems-on-Chip (SoC)
-- FPGAs
+- Micro-controllers
 - Embedded Systems
 - Single-Board computers
-(ver mais, há mais prolly)
+- FPGAs
 
 # Open ISAs
 
@@ -52,12 +73,19 @@ Talk about AVR and the other Berkley ISAs up until RISC-V.
 
 VexRISC-V for example. Full processors for implementation into FPGAs or silicon
 
+# Embedded Systems
 
-# FPGAs
+Pinecil
+
+# Micro-controllers
+
+Arduino
+
+# Single-Board Computers
+
+VisionFive
+
+# FPGAs 
+
 ICeStorm, ICe40 board.
 
-# Embedded Systems
- Arduino
-
-#Single-Board Computers
-VisionFive
