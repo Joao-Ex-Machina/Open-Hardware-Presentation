@@ -129,7 +129,7 @@ As of now most Open-Hardware FPGA boards are based on FPGA devices made with Lat
 
 # Roadmap
 
-![Summary of the Hardware Market state][./images/ARMA-ME]
+![Summary of the Hardware Market state](./images/ARMA-ME.png)
 
 # So you want to develop F-OS Hardware?
 
