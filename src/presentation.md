@@ -125,6 +125,10 @@ As of now most Open-Hardware FPGA boards are based on FPGA devices made with Lat
 
 # ICE40
 
+# Single-Board Computers
+
+# Roadmap
+![Summary of the Hardware Market state][./imagens/ARMA-ME]
 # So you want to develop F-OS Hardware?
 
 # Conclusion
