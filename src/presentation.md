@@ -58,7 +58,7 @@ From the adept/costumer standpoint:
 - Reparability
 - Upgradability
 
-# Open Hardware Projects
+# Open Hardware State of the Art
 
 We can split open hardware projects into seven main groups:
 
@@ -89,25 +89,57 @@ Digital system designs for implementing into FPGAs or silicon:
 
 VexRISC-V for example. 
 
-# Micro-controllers
-
-# Arduino
-
-# ESPressif
-
 # Embedded Systems
 
 Pinecil
 
+# Microcontrollers
+
+Microcontrollers are computing systems that contain a microprocessor, that can run a simple deterministic Operating System (such as a RTOS) or a simply flashed program, making them ideal for low-power and low-cost IoT integration and tasks.
+
+# Arduino
+
+Launched in Italy in 2005 it is arguably the most well known microcontroller and Open Hardware Project as of 2023.
+The initial project goal was to create simple, low cost tools for creating digital projects by non-engineers, which has since evolved into the production of , which since have been replicated multiple times
+
+Most Arduino boards have either :
+
+- A closed-design Atmel AVR microprocessor (built with a open modified-Harvard ISA)
+    - Bulk of the Arduino market
+        - Simple to use
+        - Low-cost
+-  A ARM-Cortex (Since Revision 4) 
+
+# Seeed
+
+The Seeed project 
+
+# HiFive Boards
+
+
+
 # Single-Board Computers
 
-Single-Board Computers (SBCs) are full computing systems, running an Operating System and providing above-microcontroller performance at low-power and low-cost. Therefore they can be designated for more complex IoT and Embedded functions and simple Desktop operations.
+Single-Board Computers (SBCs) are full computing systems, running an Operating System (such as Linux-based OS's) and providing above-microcontroller performance at a relative low-power and low-cost. Therefore they can be designated for more complex IoT and Embedded functions and simple Desktop operations.
 
-- **Raspberry Pi**: Partial Open design of the board, Closed Processor Design, Closed ISA
-- **VisionFive / VisionFive2** (2021/2022): Full open board design, Open Procesor Design, Open ISA (RISC-V)
-- **MangoPi**(2022-):
+- **Raspberry Pi** (2012-present): Partial Open board design, Closed Processor and ISA (ARM)
 
-# VisionFive
+- **VisionFive** (2021-present): Open board design, Closed Processor, Open ISA (RISC-V)
+
+- **MangoPi** (2022): Open board design, Closed Processor Design, Open ISA (RISC-V)
+
+- **BeagleV®-Ahead** (2023): Open board design, Open Processor Design, Open ISA (RISC-V)
+
+- **Lichee Pi 4A** (2023): Open board design, Open Processor Design, Open ISA (RISC-V)
+
+
+# Single-Board Computers
+
+![BeagleV-Ahead and Lichee Pi 4A](./images/sbcs.jpg)
+
+# C910 processor
+
+![Verilog Design files for the C910 processor](./images/c910.jpg){ width=90% }
 
 # FPGAs 
 
@@ -118,15 +150,16 @@ Field-Programmable Gate Arrays are the smallest unit for reconfigurable hardware
 - The mesh then interacts with DSPs (Digital Signal Processor)
 - The FPGA can then be integrated into a board to expand on the I/O capabilities
 
-As of now most Open-Hardware FPGA boards are based on FPGA devices made with Lattice's ICeStorm suite:
+As of now most Open-Hardware FPGA boards are based on:
 
-- ICe40 boards
-- ECP5
+- Lattice's ICeStorm designed devices:
+    - ICe40 boards
+    - ECP5
+-Microchip PolarFire devices:
+    - BeagleV®-Fire 
 
 # ICE40
-
-# Single-Board Computers
-
+![]()
 # Roadmap
 
 ![Summary of the Hardware Market state](./images/ARMA-ME.png)
