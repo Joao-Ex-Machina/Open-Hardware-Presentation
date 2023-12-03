@@ -192,9 +192,7 @@ Align the software roadmap the hardware roadmap:
 
 # General ISA market analysis
 
-![summary of the Hardware Market state](./images/market.jpg){ width=87% }
-
-
+![Summary of the Hardware Market state](./images/market.jpg){ width=87% }
 
 # Accelerators-Domain Specific Architectures
 
@@ -248,15 +246,13 @@ Important elements for interconnecting IPs in a scalable way.
 
 # Open Hardware State of the Art
 
-We can split open hardware projects into seven main groups:
+We can split open hardware projects into 1+5 main basic groups:
 
 - Tools for Hardware Development ** * **
 - Instruction Set Architectures (ISAs)
 - Systems-on-Chip (SoC)
 - Micro-controllers
-- Embedded Systems
 - Single-Board computers
-- Other Computing Systems
 - FPGAs
 
 # Tools for Hardware Development
@@ -315,12 +311,6 @@ Community-developed:
 Company-developed:
 
 - We will take on some of them later ;^)
-    
-
-
-# Embedded Systems
-
-Pinecil
 
 # Microcontrollers
 
