@@ -248,7 +248,7 @@ Important elements for interconnecting IPs in a scalable way.
 
 We can split open hardware projects into 1+5 main basic groups:
 
-- Tools for Hardware Development ** * **
+- Tools for Hardware Development 
 - Instruction Set Architectures (ISAs)
 - Systems-on-Chip (SoC)
 - Micro-controllers
@@ -289,13 +289,13 @@ Tools for:
 
 Directives for processing operations (i.e. structure, set of instructions, supported data types , registers etc.)
 
-- Harvard Architectures: open directive to design directives
-    - Atmel's AVR Architecture (1996): Open and Documented architecture 
+- **Harvard Architectures**: open directive to design directives
+    - **Atmel's AVR Architecture** (1996): Open and Documented architecture 
         - Directed for microcontrollers (we will see later!)
-- OpenSPARC
-- MIPS (1985-2021)
+- **OpenSPARC**
+- **MIPS** (1985-2021)
     - Partially opened in 2019 and closed again later that year  
-- RISC-V (2014-present)
+- **RISC-V** (2014-present)
 
 # Systems-on-Chip
 
@@ -349,7 +349,7 @@ Launched by **SiFive**:
 
 # Hifive1
 
-![HiFive1 Rev B](./images/hifive1-revb.png){ width = 85% }
+![HiFive1 Rev B](./images/hifive1-revb.png){ width=80% }
 
 # Single-Board Computers
 
