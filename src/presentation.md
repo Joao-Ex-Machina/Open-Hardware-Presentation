@@ -34,11 +34,7 @@ FO-S Hardware can be observed in many variations such as:
 
 - Electronics (the focus of this talk)
 - Mechatronics (3D printers, Prosthethics, etc.)
-- And many other
-
-# Introduction-Timeline and Licenses 
-
-- Hit some licenses here like the OHL etc. be fast we want to go to the eng. meat
+- And many others
 
 # Why Free/Open Hardware?
 
@@ -58,6 +54,196 @@ From the adept/costumer standpoint:
 - Reparability
 - Upgradability
 
+
+# Licensing
+
+- Permissive Licensing
+    - CERN Open Hardware License
+    - MIT Open-Source License
+- Weakly-reciprocal licensing
+- Strong-reciprocal licensing
+- Documentation Licensing
+    - CC0 
+    - CC-BY
+    - CC-BY-SA
+
+# Approaches to licensing in europe
+
+Can be:
+
+- Truly open source
+- Meaningful for Open Hardware.
+- Permissive or weakly-reciprocal
+
+Licenses need to be carefully selected to avoid potential contamination
+
+EU is lagging today:
+
+- The fear that "giving everything away" to competitors will harm the economy
+
+- Can be a strategic move from countries
+
+https://www.linuxfoundation.org/resources/publications/understanding-us-export-controls-with-open-source-projects
+
+# Market
+
+Currenttly there is a growing market for RISC-V:
+
+- $550 Billion  in 2021
+- 1 Trilion expected in 2030
+- Risc architecures grew during the covid crisis
+- Intel’s launch of a $1 billion fund to support RISC-V companies
+
+
+# Market Topology-CISC vs RISC
+
+![Risc vs Cisc market](./images/TOPRISCUSECASES.png)
+
+# Automotive Applications
+
+Eletronic components/total car value
+
+- 16% in 2019
+- expected to grow to 35% By 2025. 
+
+RISC-V can help European industry to provide flexible and reusable IP
+blocks in order to compete on the world market.
+
+# Communication and Networking Applications
+
+Communication and networking chips
+
+- 32% of total semiconductor market(USD $140 Bn) in 2020
+
+The necessity of working from home
+
+Upcoming 6G and Wifi7 developments
+
+RISC-V is expected to be a key driver for new IC´s
+
+# Industrial Applications and Manufacturing
+
+The expected growth in industrial applications is huge:
+
+- Predictive maintenance grow by 38% per annum between 2017 and 2022 to reach USD $11 Bn.   
+- Additive manufacturing (3D printing) predicted to grow annually by 15% between 2015 and 2025 to reach over USD $20 Bn
+- Virtual reality.
+    - BIS Research forecasts a market of around USD $40 Bn by 2025
+    - Annual growth between 2018 and 2025 of 65%.
+
+Risc-V is a strong growing area for embedded microprocessors
+
+Risc-V can  become a differentiator
+
+# Avionics Applications
+
+Market expected to grow from USD 46.7 Billion in 2022 USD to USD 66.3 Billion by 2027
+
+this industry there is a strong safety, security
+and certification culture.
+
+RISC-V is inspectable and auditable
+
+- Potential to meet safety requirements
+
+# Health and Well-Being Applications
+
+10% of the EU’s gross domestic product being spent in Healthcare
+
+Semiconductor usage is growing in several different applications
+
+The strongest growth areas
+
+- Remote patient monitoring
+- Wearable devices for health monitoring and well-being
+
+
+RISC-V is an enabler for secure, safe and reliable processing in medical devices.
+
+
+# Hypervisors and Separation Kernel Applications
+
+Global market expected to grow
+
+Separation kernel vendors announced software support for RISC-V
+
+
+# Roadmap
+
+1) Processors (RISC-V, beyond RISC-V, ultra-low power and high-end)
+
+2) Accelerators-Domain Specific Architectures
+
+3) Peripherals and SoC
+
+# Processors (RISC-V, beyond RISC-V, ultra-low power and high-end)
+
+Strategic key needs for the development and support for:
+- Different domain focused processors
+- The IP required to build complete SoCs
+
+Align the software roadmap the hardware roadmap:
+- Efforts should be focused on supporting RISC-V implementations
+- RV64GC and RV32GC
+
+# The Roadmap for RISC-V
+
+![RISC-V Core IP Roadmap V0.2](./images/RISC-Vroadmap.png)
+
+# General ISA market analysis
+
+![summary of the Hardware Market state](./images/market.jpg){ width=87% }
+
+
+
+# Accelerators-Domain Specific Architectures
+
+Hardware specialized for a particular domain of applications
+
+- Deep learning
+- Simulation
+- Bioinformatics
+- Image processing
+
+Accelerators are one approach to implement a DSA
+
+- Help processor for accelerating a specific application
+- Faster
+- Energy efficient
+- More secure
+
+Accelerators are implemented as is usual for the target technology (e.g., FPGA, ASIC)
+
+- Would profit immediately with OS
+- OS would encouraging reuse
+- NVIDIA’s NVDLA19 Machine Learning inference accelerator
+
+# Peripherals and SoC
+
+SoC infrastructure
+
+- Provide all the required external and internal interfaces and infrastructures
+- Very strict NDA(non-disclosure agreement)
+- Providing acess to information $\rightarrow$ growing industry
+- OS Hardware role
+
+# Networks on a Chip
+
+## Networks on a Chip
+
+Important elements for interconnecting IPs in a scalable way.
+
+# Chiplet
+
+- integrated circuit block designed to work with other similar chiplets
+    - opportunity for the semiconductor industry
+    - vantages of the traditional chips
+        - Die area per unit bandwidth
+        - Power per bit
+        - Scalability of bandwidth
+    - Die-to-Die (D2D) communication is the “missing link”
+    - Interoperability by open source is the key
+
 # Open Hardware State of the Art
 
 We can split open hardware projects into seven main groups:
@@ -73,19 +259,49 @@ We can split open hardware projects into seven main groups:
 
 # Tools for Hardware Development
 
+Despite being software, these tools are essential to open Hardware:
+- Accessible
+- Open breeds open
+
+Tools for:
+
+- Circuit Design/EDA
+    - KiCAD
+- Hardware Simulation and Synthesis
+    - GHDL
+    - Verilator
+    - Yosys
+- Waveforms viewing
+    - GTKWave
+- Programmers 
+  - ecpprog
+- Visual editors
+    - IceStudio
+
+# Tools for Hardware Development - IceStorm Flow example
+
+1) Start Hardware design and synthesis with **Yosys**
+
+2) Do place-and-route for desired FPGA architecture with **nextpnr**
+
+3) Generate and Flash bitstream with the **IceStorm suite** (icepack, iceprog, etc.)   
+
 
 # Open ISAs
 
-Directives for processing operations (i.e. structure and set of instructions)
+Directives for processing operations (i.e. structure, set of instructions, supported data types , registers etc.)
 
-Talk about AVR and the other Berkley ISAs up until RISC-V.
-
-Cascading effect for opening other technologies.
+- Harvard Architectures: open directive to design directives
+    - Atmel's AVR Architecture (1996): Open and Documented architecture 
+        - Directed for microcontrollers (we will see later!)
+- OpenSPARC
+- MIPS (1985-2021)
+    - Partially opened in 2019 and closed again later that year  
+- RISC-V (2014-present)
 
 # Systems-on-Chip
 
-Digital system designs for implementing into FPGAs or silicon:
-- Processors
+Digital system designs for implementing into FPGAs or silicon for example, processors
 
 VexRISC-V for example. 
 
@@ -95,7 +311,9 @@ Pinecil
 
 # Microcontrollers
 
-Microcontrollers are computing systems that contain a microprocessor, that can run a simple deterministic Operating System (such as a RTOS) or a simply flashed program, making them ideal for low-power and low-cost IoT integration and tasks.
+## Microcontrollers?
+
+Computing systems that contain a microprocessor, that can run a simple deterministic Operating System (such as a RTOS) or a simply flashed program, making them ideal for low-power and low-cost IoT integration and tasks.
 
 # Arduino
 
@@ -104,15 +322,11 @@ The initial project goal was to create simple, low cost tools for creating digit
 
 Most Arduino boards have either :
 
-- A closed-design Atmel AVR microprocessor (built with a open modified-Harvard ISA)
+- A closed-design Atmel AVR microprocessor (built with an open modified-Harvard ISA)
     - Bulk of the Arduino market
         - Simple to use
         - Low-cost
 -  A ARM-Cortex (Since Revision 4) 
-
-# Seeed
-
-The Seeed project 
 
 # HiFive Boards
 
@@ -120,49 +334,67 @@ The Seeed project
 
 # Single-Board Computers
 
-Single-Board Computers (SBCs) are full computing systems, running an Operating System (such as Linux-based OS's) and providing above-microcontroller performance at a relative low-power and low-cost. Therefore they can be designated for more complex IoT and Embedded functions and simple Desktop operations.
+## Single-Board Computers (SBCs)?
+
+Full computing systems, running an Operating System (such as Linux-based OS's) and providing above-microcontroller performance at a relative low-power and low-cost. Therefore they can be designated for more complex IoT and Embedded functions and simple Desktop operations.
+
+# Single-Board Computers Market
 
 - **Raspberry Pi** (2012-present): Partial Open board design, Closed Processor and ISA (ARM)
-
+    
+    - Since 2012 many Raspberry Pi variations and similiar-ARM SBCs have been launched, being the dominating market force.
+    
 - **VisionFive** (2021-present): Open board design, Closed Processor, Open ISA (RISC-V)
 
-- **MangoPi** (2022): Open board design, Closed Processor Design, Open ISA (RISC-V)
+- **MangoPi** (2022): Open board design, Closed Processor, Open ISA (RISC-V)
 
-- **BeagleV®-Ahead** (2023): Open board design, Open Processor Design, Open ISA (RISC-V)
+- **BeagleV-Ahead** (2023): Open board design, (Partial) Open Processor, Open ISA (RISC-V)
 
-- **Lichee Pi 4A** (2023): Open board design, Open Processor Design, Open ISA (RISC-V)
+- **Lichee Pi 4A** (2023): Open board design, (Partial) Open Processor, Open ISA (RISC-V)
 
 
-# Single-Board Computers
+# Open Single-Board Computers
 
-![BeagleV-Ahead and Lichee Pi 4A](./images/sbcs.jpg)
+![BeagleV-Ahead](./images/beagle.jpeg){ width=90% }
+
+# Open Single-Board Computers
+
+![Lichee Pi 4A](./images/lichee.jpg)
 
 # C910 processor
 
 ![Verilog Design files for the C910 processor](./images/c910.jpg){ width=90% }
 
-# FPGAs 
+# SBCs Benchmarks - R-V vs ARM
 
-Field-Programmable Gate Arrays are the smallest unit for reconfigurable hardware:
+![Various SBCs performance while running GeekBench5](./images/benchmark.png){ width=87% }
+
+# FPGAs
+ 
+## Field-Programmable Gate Arrays?
+
+Smallest unit for reconfigurable hardware:
 
 - A mesh of CLBs (Configurable Logic Blocks) containing LUTs (Look-Up tables) allows hardware-level reconfigurability
     - Look-Up Tables are small memory devices that contain the logic outputs for different logic inputs
 - The mesh then interacts with DSPs (Digital Signal Processor)
 - The FPGA can then be integrated into a board to expand on the I/O capabilities
 
-As of now most Open-Hardware FPGA boards are based on:
+# FPGAs
 
-- Lattice's ICeStorm designed devices:
-    - ICe40 boards
-    - ECP5
--Microchip PolarFire devices:
-    - BeagleV®-Fire 
+As of now most Open-Hardware FPGA boards are based on well-documented closed FPGA devices such as:
+
+- Lattice's ECP5 series devices:
+- Lattice's iCE40 series:
+        - iCEBreaker
+        - TinyFPGA BX
+- Microchip PolarFire devices:
+    - BeagleV-Fire
+- Xilinx Spartan-7 device:
+    - S7 mini
 
 # ICE40
 ![]()
-# Roadmap
-
-![Summary of the Hardware Market state](./images/ARMA-ME.png)
 
 # So you want to develop F-OS Hardware?
 
