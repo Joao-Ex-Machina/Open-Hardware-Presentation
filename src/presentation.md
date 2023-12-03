@@ -212,6 +212,8 @@ Accelerators are one approach to implement a DSA
 - Energy efficient
 - More secure
 
+# Accelerators-Domain Specific Architectures
+
 Accelerators are implemented as is usual for the target technology (e.g., FPGA, ASIC)
 
 - Would profit immediately with OS
@@ -248,7 +250,7 @@ Important elements for interconnecting IPs in a scalable way.
 
 We can split open hardware projects into seven main groups:
 
-- Tools for Hardware Development*
+- Tools for Hardware Development ** * **
 - Instruction Set Architectures (ISAs)
 - Systems-on-Chip (SoC)
 - Micro-controllers
@@ -303,7 +305,18 @@ Directives for processing operations (i.e. structure, set of instructions, suppo
 
 Digital system designs for implementing into FPGAs or silicon for example, processors
 
-VexRISC-V for example. 
+Community-developed:
+
+- **PicoRV32** (2018): 32-bit CPU size-optimized
+- **IOb-SoC** (2020): Portuguese SoC based on the PicoRV32, which includes SRAM subsystem and UART bus
+- **VexRISC-V** (2021): 32-bit CPU for FPGA deployment
+- And many many more each day...
+
+Company-developed:
+
+- We will take on some of them later ;^)
+    
+
 
 # Embedded Systems
 
@@ -320,7 +333,7 @@ Computing systems that contain a microprocessor, that can run a simple determini
 Launched in Italy in 2005 it is arguably the most well known microcontroller and Open Hardware Project as of 2023.
 The initial project goal was to create simple, low cost tools for creating digital projects by non-engineers, which has since evolved into the production of , which since have been replicated multiple times
 
-Most Arduino boards have either :
+Most Arduino boards have either:
 
 - A closed-design Atmel AVR microprocessor (built with an open modified-Harvard ISA)
     - Bulk of the Arduino market
@@ -328,9 +341,25 @@ Most Arduino boards have either :
         - Low-cost
 -  A ARM-Cortex (Since Revision 4) 
 
-# HiFive Boards
+# SiFive/HiFive1 boards
+
+Launched by **SiFive**:
+
+- Founded by Berkley RISC-V researchers
+- One of the first companies to launch a RISC-V chip commercially
+- First company to launch comercially a open RISC-V chip
+    - Freedom E310 (2016)
+
+**HiFive1** (2017-present):
+
+- Open board Design
+- Open ISA and processor design
+- Arduino Compatible
 
 
+# Hifive1
+
+![HiFive1 Rev B](./images/hifive1-revb.png){ width = 85% }
 
 # Single-Board Computers
 
@@ -344,6 +373,9 @@ Full computing systems, running an Operating System (such as Linux-based OS's) a
     
     - Since 2012 many Raspberry Pi variations and similiar-ARM SBCs have been launched, being the dominating market force.
     
+- **HiFive Unmatched** (2020): Open board design, Open Processor, Open ISA (RISC-V)
+    - Development Platform, with a limited run
+
 - **VisionFive** (2021-present): Open board design, Closed Processor, Open ISA (RISC-V)
 
 - **MangoPi** (2022): Open board design, Closed Processor, Open ISA (RISC-V)
@@ -352,6 +384,9 @@ Full computing systems, running an Operating System (such as Linux-based OS's) a
 
 - **Lichee Pi 4A** (2023): Open board design, (Partial) Open Processor, Open ISA (RISC-V)
 
+# Open Single-Board Computers
+
+![A HiFive Unmatched Rig](./images/unmatched.jpg){ width=85% }
 
 # Open Single-Board Computers
 
@@ -367,7 +402,11 @@ Full computing systems, running an Operating System (such as Linux-based OS's) a
 
 # SBCs Benchmarks - R-V vs ARM
 
-![Various SBCs performance while running GeekBench5](./images/benchmark.png){ width=87% }
+![Various SBCs performance while running GeekBench5](./images/benchmark.png){ width=85% }
+
+# The Future of SBCs
+
+![HiFive Pro P550](./images/hfpro.png){ width=90% }
 
 # FPGAs
  
@@ -393,10 +432,13 @@ As of now most Open-Hardware FPGA boards are based on well-documented closed FPG
 - Xilinx Spartan-7 device:
     - S7 mini
 
-# ICE40
+# BeagleV-Fire
 ![]()
+![BeagleV-Fire All-in-one](./images/BeagleV-Fire.png)
 
-# So you want to develop F-OS Hardware?
+# Wrap-up, a Classroom Exercise
+
+So you want to develop F-OS Hardware?
 
 # Conclusion
 
@@ -404,5 +446,6 @@ To sum up here are some bullet points that you hopefully retained from this
 presentation:
 
 - What is Free and Open Hardware
+- How the Open Hardware market is progressing
 - Basic notions on the presented technologies
 - Advantages of opening hardware designs
