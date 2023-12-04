@@ -444,3 +444,7 @@ presentation:
 - How the Open Hardware market is progressing
 - Basic notions on the presented technologies
 - Advantages of opening hardware designs
+
+# Acknowledgements
+
+- Prof. Leonel Sousa, IST-UL and INESC-ID
