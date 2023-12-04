@@ -62,7 +62,7 @@ From the adept/costumer standpoint:
     - MIT Open-Source License
 - Weakly-reciprocal licensing
 - Strong-reciprocal licensing
-- Documentation Licensing
+- (not only) Documentation Licensing
     - CC0 
     - CC-BY
     - CC-BY-SA
@@ -97,7 +97,7 @@ Currenttly there is a growing market for RISC-V:
 
 # Market Topology-CISC vs RISC
 
-![Risc vs Cisc market](./images/TOPRISCUSECASES.png)
+![RISC vs CISC market](./images/TOPRISCUSECASES.png)
 
 # Automotive Applications
 
@@ -218,6 +218,10 @@ Accelerators are implemented as is usual for the target technology (e.g., FPGA, 
 - OS would encouraging reuse
 - NVIDIA’s NVDLA19 Machine Learning inference accelerator
 
+# NVDLA19
+
+![NVDLA Deep Learning MicroArchitecture](./images/nvdla.png)
+
 # Peripherals and SoC
 
 SoC infrastructure
@@ -284,6 +288,9 @@ Tools for:
 
 3) Generate and Flash bitstream with the **IceStorm suite** (icepack, iceprog, etc.)   
 
+# KiCAD
+
+![HESv2 gerber file on KiCAD](./images/hes_open_2.png)
 
 # Open ISAs
 
@@ -367,8 +374,6 @@ Full computing systems, running an Operating System (such as Linux-based OS's) a
     - Development Platform, with a limited run
 
 - **VisionFive** (2021-present): Open board design, Closed Processor, Open ISA (RISC-V)
-
-- **MangoPi** (2022): Open board design, Closed Processor, Open ISA (RISC-V)
 
 - **BeagleV-Ahead** (2023): Open board design, (Partial) Open Processor, Open ISA (RISC-V)
 
