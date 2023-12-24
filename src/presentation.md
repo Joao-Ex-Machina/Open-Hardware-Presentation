@@ -83,7 +83,7 @@ EU is lagging today:
 
 - Can be a strategic move from countries
 
-https://www.linuxfoundation.org/resources/publications/understanding-us-export-controls-with-open-source-projects
+- <https://www.linuxfoundation.org/resources/publications/understanding-us-export-controls-with-open-source-projects>
 
 # Market
 
@@ -220,7 +220,7 @@ Accelerators are implemented as is usual for the target technology (e.g., FPGA, 
 
 # NVDLA19
 
-![NVDLA Deep Learning MicroArchitecture](./images/nvdla.png)
+![NVDLA Deep Learning MicroArchitecture](./images/nvdla.png){ width=90% }
 
 # Peripherals and SoC
 
@@ -397,7 +397,7 @@ Full computing systems, running an Operating System (such as Linux-based OS's) a
 
 # SBCs Benchmarks - R-V vs ARM
 
-![Various SBCs performance while running GeekBench5](./images/benchmark.png){ width=85% }
+![Various SBCs performance while running GeekBench5 (Integer and Floating-Point Workloads tests)](./images/benchmark.png){ width=80% }
 
 # The Future of SBCs
 
@@ -444,6 +444,16 @@ presentation:
 - How the Open Hardware market is progressing
 - Basic notions on the presented technologies
 - Advantages of opening hardware designs
+
+# Sources
+
+- <https://riscv.org/>
+- <https://hackaday.com/2023/11/07/trouble-brewing-for-risc-v-as-issue-of-technology-transfer-is-questioned/> 
+- <https://riscv.org/wp-content/uploads/2017/02/riscv_fosdem17.pdf>
+- <https://www.openhwgroup.org/>
+- <https://sipeed.com/licheepi4a>
+- <https://www.beagleboard.org/>
+- <https://www.starfivetech.com/en/site/boards>
 
 # Acknowledgements
 
